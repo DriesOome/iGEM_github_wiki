@@ -1,0 +1,68 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-family: "Times New Roman", Times, serif;
+}
+.teamMemberDiv {
+    /* The image used */
+    background-image: url("images/Official\ KULeuven\ iGEM\ 2021\ logo\ transparant\ 0.25\ black.png");
+  
+    /* Set a specific height */
+    width: 100vw;
+    height: 100vh;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.memberName {
+    width: 100%;
+    height: 7%;
+    margin: 0;
+    display: flex;
+    background-image: linear-gradient(to right top,
+         rgba(60, 141, 233, 0.98),
+         rgba(60, 141, 233, 0.4));
+    text-align: center;
+}
+.memberNameText {
+    width: 100%;
+    height: auto;
+    text-align: center;
+
+}
+.descriptionGrid {
+    display: grid;
+    width: 100%;
+    height: 100%;
+    margin: 1vw;
+    grid-template-columns: 50% 50%;
+    background-color: transparent;
+}
+.imageCol {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    margin: 10%;
+
+}
+.memberImage {
+    width: 100%;
+    height: auto;
+}
+.descriptionCol {
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin: 10%;
+
+}
+.descriptionText {
+    color: white;
+    background-color:rgba(0, 0, 0, 0.15);
+    font-size: 1.8vw;
+}
